@@ -39,15 +39,3 @@ A classe `ClienteService` atua como uma fachada para centralizar e simplificar a
 A configuração do serviço de busca de endereços (como o client da API ViaCEP) é tratada como instância única (Bean do Spring), garantindo reutilização e performance.
 
 ---
-
-## ▶️ Como executar o projeto
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio
-
-# Acesse a pasta do projeto
-cd cliente-endereco-api-spring-design-patterns
-
-# Execute a aplicação (com Maven)
-./mvnw spring-boot:run
